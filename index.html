@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Website</title>
+</head> 
+<body>
+    <section class = "header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" height= "93px"></a>
+            <div class ="nav-links" id = "navLinks">
+                <i class="fa fa-window-close" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">TEST</a></li>
+                    <li><a href="">PLACEMENTS</a></li>
+                    <li><a href="">INFORMATION</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick = "showmenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1> <u> Competitive exam Website </u></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ab quas modi suscipit corporis! Pariatur minima neque similique, debitis saepe adipisci qui nostrum excepturi eum quam dolor, accusantium officia atque, optio praesentium repellendus natus consequuntur quidem eveniet labore velit magnam expedita accusamus eius. Repellendus voluptatibus eum, doloribus architecto id ad pariatur accusamus adipisci ut?</p>
+            <a href=""class = "hero-btn">Visit us</a>
+        </div>
+    </section>
+    <!-- course section  -->
+    <section class = "course">
+        <h1><u>Courses offerd by UPTU</u></h1>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <div class="row">
+        <div class="course-col">
+            <h3><u>UG Courses </u></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ut nam obcaecati adipisci dolore nesciunt voluptates iste eos, excepturi voluptatem qui libero aspernatur.</p>
+        </div>
+            <div class="course-col">
+                <h3> <u> PG Courses </u></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ut nam obcaecati adipisci dolore nesciunt voluptates iste eos, excepturi voluptatem qui libero aspernatur.</p>  
+    </div>
+</div>
+    </section>
+    <section class = "Campus">
+        <h1>Top 10 Colleges </h1>
+        <p>Ranking of Colleges Based on Cumulative Performance on Average Gross Marks (Theory Papers Only) Obtained By Student in Colleges</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/Harcourt Butler Technological Institute.jpg" alt="">
+            </div>
+        </div>
+</section>
+    <!-- <footer>
+        <p>Ideathon &copy; Reserved</p>
+    </footer> -->
+    <!-- java script menu buttons  -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showmenu(){
+            navLinks.style.right = "0";
+        } 
+        function hidemenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
